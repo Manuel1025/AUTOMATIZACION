@@ -1,0 +1,186 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/windows,java,intellij,gradle
+# Edite en https://www.toptal.com/developers/gitignore?templates=windows,java,intellij,gradle
+
+### Intellij ###
+# Cubre IDE de JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm y Rider
+# Referencia: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Cosas específicas del usuario
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / use.statistics.xml
+.idea / ** / diccionarios
+.idea / ** / estante
+
+# Específico del usuario de AWS
+.idea / ** / aws.xml
+
+# Archivos generados
+.idea / ** / contentModel.xml
+
+# Archivos sensibles o de alta rotación
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradle
+.idea / ** / gradle.xml
+.idea / ** / bibliotecas
+
+# Gradle y Maven con importación automática
+# Cuando use Gradle o Maven con la importación automática, debe excluir los archivos del módulo,
+# ya que se volverán a crear y pueden provocar pérdidas. Descomentar si se usa
+# importación automática.
+# .idea / artefactos
+# .idea / compiler.xml
+# .idea / jarRepositories.xml
+# .idea / modules.xml
+# .idea / *. iml
+# .idea / módulos
+# * .iml
+# * .ipr
+
+# CMake
+cmake-build - * /
+
+# Complemento de Mongo Explorer
+.idea / ** / mongoSettings.xml
+
+# Formato de proyecto basado en archivos
+* .iws
+
+# IntelliJ
+fuera/
+
+# complemento mpeltonen / sbt-idea
+.idea_modules /
+
+# Complemento JIRA
+atlassian-ide-plugin.xml
+
+# Complemento cursivo de Clojure
+.idea / replstate.xml
+
+# Complemento de Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Cliente de descanso basado en editor
+.idea / httpRequests
+
+# Archivo de caché serializado de Android studio 3.1+
+.idea / caches / build_file_checksums.ser
+
+### Parche Intellij ###
+# Razón del comentario: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# * .iml
+# modules.xml
+# .idea / misc.xml
+# * .ipr
+
+# Complemento Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea / ** / sonarlint /
+
+# Complemento SonarQube
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea / ** / sonarIssues.xml
+
+# Complemento Markdown Navigator
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea / ** / markdown-navigator.xml
+.idea / ** / markdown-navigator-enh.xml
+.idea / ** / markdown-navigator /
+
+# Error de creación de archivos de caché
+# Ver https://youtrack.jetbrains.com/issue/JBR-2257
+.idea / $ CACHE_FILE $
+
+# Complemento CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea / codestream.xml
+
+### Java ###
+# Archivo de clase compilado
+*.clase
+
+# Archivo de registro
+*.Iniciar sesión
+
+# Archivos BlueJ
+* .ctxt
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp /
+
+# Paquetes de archivos #
+*.frasco
+*.guerra
+* .nar
+*.oreja
+*.Código Postal
+* .tar.gz
+* .rar
+
+# registros de fallas de la máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
+
+### Windows ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+* .stackdump
+
+# Archivo de configuración de carpeta
+[Dd] esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$ RECICLAJE.BIN /
+
+# Archivos de Windows Installer
+*.taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Accesos directos de Windows
+* .lnk
+
+### Gradle ###
+.gradle
+construir/
+
+# Ignorar la configuración de la GUI de Gradle
+gradle-app.setting
+
+# Evite ignorar el archivo jar contenedor de Gradle (los archivos .jar generalmente se ignoran)
+! gradle-wrapper.jar
+
+# Caché de proyecto
+.gradletasknamecache
+
+# # Trabaje con https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle / wrapper / gradle-wrapper.properties
+
+### Parche de Gradle ###
+**/construir/
+
+# Archivos generados por el complemento Eclipse Gradle
+# Eclipse Core
+.proyecto
+# Específico de JDT (Herramientas de desarrollo Java de Eclipse)
+.classpath
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows,java,intellij,gradle

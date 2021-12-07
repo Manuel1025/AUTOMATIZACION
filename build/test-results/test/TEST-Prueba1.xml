@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Prueba1" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-07T04:37:26" hostname="22LAP5CD1346NJJ" time="15.611">
+  <properties/>
+  <testcase name="deberiaIniciarSesion()" classname="Prueba1" time="15.611"/>
+  <system-out><![CDATA[inicio de sesion exitoso
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 11291
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic 06, 2021 11:37:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
